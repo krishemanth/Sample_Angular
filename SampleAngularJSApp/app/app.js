@@ -10,8 +10,7 @@
             $stateProvider
             .state('home', {
                 url: '/',
-                templateUrl: 'app/views/mainView.html',
-                controller: 'mainController as vm'
+                templateUrl: 'app/views/mainView.html'
             })
             .state('EditCustomer', {
                 url: '/editcustomer/:id',

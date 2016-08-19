@@ -55,7 +55,7 @@
         };
 
         webApiService.query({ apiUrl: 'customers' }, function (data) {
-            customerCache.setcustomerCache(data);
+            customerCache.setCustomerCache(data);
             vm.customers = customerCache.getCustomerCache();
 
             $scope.customerGridOptions = {

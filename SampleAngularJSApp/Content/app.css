@@ -37,7 +37,7 @@
   border-bottom: 1px solid transparent;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background-color:gold;
+  background-color:cornflowerblue;
   color:black;
   padding-top:20px;
   text-align:center;
@@ -66,7 +66,6 @@
     width:1024px;
 }
 .panel-body {
-    background-image: url(images/MainBackGround2.png);
     background-size:cover;
     background-repeat:no-repeat;
     height:100%;
@@ -81,7 +80,7 @@
 .ibtn {
     border:solid;
     border-width:1px;
-    background-color: gold;
+    background-color: ButtonFace;
     color:black;
     height:50px;
     width:300px;
@@ -243,7 +242,7 @@
     left: 328px;
     border:solid;
     border-width:1px;
-    background-color: gold;
+    background-color: cornflowerblue;
     color:black;
     border-radius:4px;
     font-family:"sans-serif";
@@ -314,7 +313,7 @@
     float:left;
     border:solid;
     border-width:1px;
-    background-color: gold;
+    background-color: cornflowerblue;
     color:black;
     border-radius:4px;
     font-family:"sans-serif";
@@ -330,7 +329,7 @@
     left: 422px;
     border:solid;
     border-width:1px;
-    background-color: gold;
+    background-color: cornflowerblue;
     color:black;
     border-radius:4px;
     font-family:"sans-serif";
@@ -355,7 +354,7 @@
 .btn-success {
     border:solid;
     border-width:1px;
-    background-color: gold;
+    background-color: cornflowerblue;
     color:black;
     border-radius:4px;
     font-family:"sans-serif";
@@ -372,7 +371,7 @@
 .btn-default {
     border:solid;
     border-width:1px;
-    background-color: gold;
+    background-color: cornflowerblue;
     color:black;
     border-radius:4px;
     font-family:"sans-serif";
@@ -390,7 +389,7 @@
     float:left;
     border:solid;
     border-width:1px;
-    background-color: gold;
+    background-color: cornflowerblue;
     color:black;
     border-radius:4px;
     font-family:"sans-serif";
@@ -404,7 +403,7 @@
     float:left;
     border:solid;
     border-width:1px;
-    background-color: gold;
+    background-color: cornflowerblue;
     color:black;
     border-radius:4px;
     font-family:"sans-serif";
@@ -437,7 +436,7 @@
    border-top: 1px solid transparent;
    border-bottom-left-radius: 3px;
    border-bottom-right-radius: 3px;
-   background-color:gold;
+   background-color:cornflowerblue;
    color:black;
    height:20px;
    text-align:center;
@@ -448,7 +447,7 @@
 .view-window {
     float:left;
     height:520px;
-    border-color:goldenrod;
+    border-color:cornflowerblueenrod;
     border-style:solid;
     border-width:2px;
     border-top-left-radius: 6px;
