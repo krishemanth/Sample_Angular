@@ -1,0 +1,26 @@
+Azure topics
+------------
+Service bus -messaging relaying, topics n subscriptions.
+IoT hubs- Amqp,protocols
+Event hubs
+Service fabric
+WebRole, WorkerRole,
+Azure Storage(Tables,Blobs,Queues,Files)
+DocumentDB.
+
+https://www.visualstudio.com/en-us/docs/release/examples/azure/net-to-azure-vm
+
+Azure Queues vs Service Queues
+IOT Hubs vs Event Hubs.
+
+
+Endpoint=sb://hemanthservbus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=eihElOoZPvYOMV1phPhIST92e7O6ATMuKL4GmJ7qLyk=
+
+1)Azure Web Job
+2)Azure Functions
+3)Service Bus(Queue,Topic,Relay,Notification Hub,EventHub)
+https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-fundamentals-hybrid-solutions
+a)Queue=Comm b/n two applications sender and receiver
+b)Topic= It is also like queue, but it has filters. Different sellers/senders will submit messages to topic. Subscriber will receive only topic that contain property   seller='XYZ'
+c)Relay=Both queues and topics provide one-way asynchronous communication through a broker. Traffic flows in just one direction, and there's no direct connection between   senders and receivers. But what if you don't want this? Suppose your applications need to both send and receive messages, or perhaps you want a direct link between them and    you don't need a broker to store messages. To address scenarios such as this, Service Bus provides relays
+d)
